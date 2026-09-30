@@ -1,0 +1,65 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Peptide backbone ribbon / bonds -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M32,38 L44,48 L64,42 L76,60 L58,72 L40,68 L48,56" />
+    
+    <path
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M44,48 L58,72" />
+
+    <!-- Amino acid nodes (spheres) with vivid bio colors -->
+    <!-- Node 1: Ala / Blue -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M32,38m-7,0a7,7 0 1,0 14,0a7,7 0 1,0 -14,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,36m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+
+    <!-- Node 2: Gly / Emerald -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M44,48m-8,0a8,8 0 1,0 16,0a8,8 0 1,0 -16,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,45m-2.2,0a2.2,2.2 0 1,0 4.4,0a2.2,2.2 0 1,0 -4.4,0" />
+
+    <!-- Node 3: Ser / Amber -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M64,42m-7.5,0a7.5,7.5 0 1,0 15,0a7.5,7.5 0 1,0 -15,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M62,39m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+
+    <!-- Node 4: Val / Purple -->
+    <path
+        android:fillColor="#A78BFA"
+        android:pathData="M76,60m-7,0a7,7 0 1,0 14,0a7,7 0 1,0 -14,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M74,58m-1.8,0a1.8,1.8 0 1,0 3.6,0a1.8,1.8 0 1,0 -3.6,0" />
+
+    <!-- Node 5: Cys / Coral -->
+    <path
+        android:fillColor="#F87171"
+        android:pathData="M58,72m-8,0a8,8 0 1,0 16,0a8,8 0 1,0 -16,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,69m-2.2,0a2.2,2.2 0 1,0 4.4,0a2.2,2.2 0 1,0 -4.4,0" />
+
+    <!-- Node 6: Leu / Indigo -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M40,68m-6.5,0a6.5,6.5 0 1,0 13,0a6.5,6.5 0 1,0 -13,0" />
+</vector>

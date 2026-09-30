@@ -1,0 +1,6 @@
+{
+  "name": "Protein Builder",
+  "description": "Master biology by building proteins, exploring amino acids and peptide bonds, and conquering interactive quizzes and challenges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
